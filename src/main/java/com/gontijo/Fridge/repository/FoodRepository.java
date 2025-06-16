@@ -1,4 +1,8 @@
 package com.gontijo.Fridge.repository;
 
-public class FoodRepository {
+import com.gontijo.Fridge.model.Food;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface FoodRepository extends JpaRepository<Food, Long> {
+
 }
